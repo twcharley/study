@@ -158,9 +158,17 @@
           <option name="url" value="https://github.com/twcharley/TabTest" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/twcharley/" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/twcharley/TabTest1" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects/TabTest" />
+    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects/" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/AndroidStudioProjects" />
