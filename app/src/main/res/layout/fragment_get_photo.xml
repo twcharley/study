@@ -1,0 +1,54 @@
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.getPhoto"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnGet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:onClick="btnGet1"
+        android:src="@drawable/camera"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnGet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180px"
+        android:onClick="btnGet2"
+        android:src="@drawable/recycle"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:id="@+id/surfaceView2"
+         />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:color/holo_blue_bright"
+        android:id="@+id/imageButton" />
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surfaceView"
+         />
+
+
+</LinearLayout>
+</FrameLayout>
